@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Image search</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+        <h1> PP's URL shortner Microservice </h1>
+        <h1><small> Free Code camp project </small></h1>
+        <a href="https://github.com/ppmakeitcount/">Github: ppmakeitcount</a>
+        </div>
+      
+        <h2>User Stories:</h2>
+        <p>I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</p>
+        <p>I can paginate through the responses by adding a ?offset=2 parameter to the URL.</p>
+        <p>I can get a list of the most recently submitted search strings.</p>
+        <h2>Example images search</h2>
+        <div >
+            <code>https://image-search-abs-ppmakeitcount.c9users.io/elon%20musk?offset=5</code><br>
+        </div>
+        <h2>Example images output:</h2>
+        <div >
+           <code>[{"url":"http://static4.uk.businessinsider.com/image/5469c9a682e98577547e366e/elon-musk-robots-could-start-killing-us-all-within-5-years.jpg","snippet":"ELON MUSK: Killer Robots Will ...","thumbnail":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrmxyKf9olfBNa47T9KbfBzWZUWOTIw6ZYzpj-p2rQysQmXTJ7NfQfdUg","context":"uk.businessinsider.com"},{"url":"http://static6.uk.businessinsider.com/image/5469c9e5848fb6c1467e3671-1190-625/elon-musk-robots-could-start-killing-us-all-within-5-years.jpg","snippet":"ELON MUSK: Killer Robots Will ...","thumbnail":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNcDuCMrfVPJL84W59UBxcqT-8Tke361sEaaeOMGX6RfSC8DKnxLQeYhOX","context":"uk.businessinsider.com"},{"url":"http://static1.uk.businessinsider.com/image/5469c9bb833c9e7a4c7e366e-960/elon-musk.jpg","snippet":"Elon Musk","thumbnail":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQchPO3hK9NyGpFmXtV9w9TlR1YZQqozs_fpAg0la5G2FYWy3Q6Cub2pHs0","context":"uk.businessinsider.com"},{"url":"http://static3.businessinsider.com/image/543ef3deeab8ea2277e7a431/elon-musk-in-5-years-youll-be-able-to-get-in-your-car-go-to-sleep-and-wake-up-at-your-destination.jpg","snippet":"... in categories: Elon Musk, ...","thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KWx04oONJkN29XSl4dvxE9JrdFy_gs89I23nxIy5eyBVHRRMvXCFDjY","context":"lifeboat.com"},{"url":"http://i.investopedia.com/dimages/graphics/ap_507406182676.jpg?quality=80&width=680&height=680","snippet":"Elon Musk has been called just ...","thumbnail":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQgIr9UBp_LKxVEBGUNRJCbo84CcITqnG1a2RRI_M83R79eALI48DKEOs4","context":"www.investopedia.com"}]</code>
+        </div>
+        <h2>Example get latest search's</h2>
+        <div >
+            <code>https://image-search-abs-ppmakeitcount.c9users.io/latest/imagesearch</code>
+        </div>
+        
+    </div>    
+</body>
