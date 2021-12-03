@@ -13,7 +13,7 @@
     "bing.search": "^1.0.1",
     "express": "^4.14.0",
     "google-images": "^2.0.0",
-    "mongodb": "^2.2.19",
+    "mongodb": "~3.1.13",
     "node-bing-api": "^3.0.1",
     "request": "^2.79.0",
     "tineye-api": "^1.0.0"
